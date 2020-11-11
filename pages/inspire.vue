@@ -1,0 +1,80 @@
+<template>
+  <v-row>
+    <v-col
+      v-for="(a, key) in [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        19,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        19,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        19,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        19,
+      ]"
+      :key="key"
+      class="text-center"
+    >
+      <img src="/v.png" alt="Vuetify.js" class="mb-5" />
+      <blockquote class="blockquote">
+        &#8220;First, solve the problem. Then, write the code.&#8221;
+        <footer>
+          <small>
+            <em>&mdash;John Johnson</em>
+          </small>
+        </footer>
+      </blockquote>
+    </v-col>
+  </v-row>
+</template>
